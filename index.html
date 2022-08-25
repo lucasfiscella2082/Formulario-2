@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registrate al Picódromo</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/e139b284bf.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <div class="hero">
+    <form>
+      <div class="row">
+        <div class="input-grupo">
+          <input type="text" id="nombre" required>
+          <label for="nombre"><i class="fa-solid fa-user"></i> Tu Nombre</label>
+        </div>
+        <div class="input-grupo">
+          <input type="text" id="numero" required>
+          <label for="numero"><i class="fa-solid fa-square-phone"></i> Tu Teléfono</label>
+        </div>
+      </div>
+
+      <div class="input-grupo">
+        <input type="email" id="email" required>
+        <label for="email"><i class="fa-solid fa-envelope"></i> Tu Email</label>
+      </div>
+      <div class="input-grupo">
+        <textarea id="mensaje" rows="8" required></textarea>
+        <label for="mensaje"><i class="fa-solid fa-message"></i> Tu Mensaje</label>
+      </div>
+      <button type="submit">Enviar <i class="fa-solid fa-paper-plane"></i></button>
+    </form>
+  </div>
+</body>
+
+</html>
